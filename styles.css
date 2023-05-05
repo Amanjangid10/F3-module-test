@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+    margin: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+}
+
+h1>span {
+    color: rgb(4, 155, 155);
+}
+
+.btn {
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 10rem;
+    height: 2rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.data:hover {
+    background-color: whitesmoke !important;
+    color: black !important;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: space-between;
+}
